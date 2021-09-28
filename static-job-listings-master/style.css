@@ -1,0 +1,60 @@
+body {
+    background: hsl(180, 69%, 78%);
+}
+
+header {
+    min-height: 5vh;
+    display: flex;
+    justify-content: center;
+}
+section {
+    margin: 3rem;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.infocontainer {
+    padding-left: 0.5rem;
+    padding-right: 2rem;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.skillcontainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.skillcontainer p {
+    padding: 10px;
+}
+.feature {
+    display: flex;
+    flex-direction:column;
+}
+.feature > p {
+    font-weight: bolder;
+}
+.feature-1 p {
+  color: hsl(180, 69%, 78%);
+}
+.feature-1, .feature-2 {
+    display: flex;
+    flex-direction:row;
+    justify-content: space-between;
+}
+.dot {
+    width: 5px;
+    padding: 3px;
+    align-items: center;
+    align-items: center;
+}
+img {
+    width: 100px;
+    padding: 1rem;
+}
