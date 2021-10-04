@@ -1,11 +1,23 @@
 body {
     background: hsl(180, 52%, 96%);
+    font-family: sans-serif;
 }
-
-header {
-    min-height: 5vh;
-    display: flex;
-    justify-content: center;
+* {
+    box-sizing: border-box;
+}
+h1 {
+    color: #000;
+    text-align: center;
+}
+#searchWrapper {
+    text-align: center;
+    align-items: center;
+}
+#searchBar {
+    height: 2rem;
+    border-radius: 2px;
+    border:none;
+    width: 70vw;
 }
 section {
     margin: 3rem;
@@ -13,11 +25,6 @@ section {
     display: flex;
     align-items: center;
     justify-content: space-between;
-}
-
-.infocontainer {
-    padding-left: 0.5rem;
-    padding-right: 2rem;
 }
 
 .container {
@@ -47,14 +54,22 @@ section {
     display: flex;
     flex-direction:row;
     justify-content: space-between;
+    gap: 5px;
 }
-.dot {
-    width: 5px;
-    padding: 3px;
+.language {
+    display: flex;
+    flex-direction: row;
     align-items: center;
-    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
 }
 img {
     width: 100px;
     padding: 1rem;
+}
+
+
+li {
+    list-style-type: none;
+    text-decoration: none;
 }
